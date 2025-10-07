@@ -1,0 +1,11 @@
+# Defines a simple 5x5 square path.
+# Good for baseline performance testing.
+path_smoother_node:
+  ros__parameters:
+    waypoints: [
+      0.0, 0.0,
+      5.0, 0.0,
+      5.0, 3.0,
+      0.0, 5.0,
+      0.0, 0.0
+    ]

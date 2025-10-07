@@ -1,0 +1,12 @@
+# A path that crosses over itself like a figure-eight.
+# This is a difficult test for path trackers, especially
+# at the intersection point (4,4).
+path_smoother_node:
+  ros__parameters:
+    waypoints: [
+      0.0, 0.0,
+      8.0, 8.0,
+      0.0, 8.0,
+      8.0, 0.0,
+      0.0, 0.0
+    ]

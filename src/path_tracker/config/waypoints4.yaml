@@ -1,0 +1,16 @@
+# A challenging path with:
+# - A sharp hairpin turn.
+# - Nearly collinear points to test for oscillations.
+# - A duplicate point (4,4) to test filtering.
+path_smoother_node:
+  ros__parameters:
+    waypoints: [
+      0.0, 0.0,
+      4.0, 4.0,
+      4.0, 4.0,   # Duplicate point
+      8.0, 0.0,
+      8.2, -0.5,  # Start of a sharp turn
+      8.0, -1.0,  # Hairpin point
+      4.0, -4.0,
+      0.0, 0.0
+    ]

@@ -1,0 +1,12 @@
+# This file contains the first set of waypoints for the robot path
+
+path_smoother_node:
+  ros__parameters:
+    waypoints: [
+      0.0, 0.0,
+      4.0, 1.0,
+      4.0, -1.0,
+      6.0, 0.0,
+      8.0, 2.0,
+      10.0, 0.0
+    ]
